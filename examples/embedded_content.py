@@ -1,10 +1,10 @@
 from discord_webhook import DiscordEmbed, DiscordWebhook
 
-webhook = DiscordWebhook(url="your webhook url")
+webhook = DiscordWebhook(url="https://discord.com/api/webhooks/1210308309102501989/i-gYUMErI0VHVi5jlV2fMczwGkawiuV2CKG9hr3obUC-m4MFPUlGesQlqvBELxdb-ITZ")
 
 # create embed object for webhook
 embed = DiscordEmbed(
-    title="Your Title", description="Lorem ipsum dolor sit", color=242424
+    title="Oh , My hero Liberpool", description="You can got your tickets", color=242424
 )
 
 # set author
@@ -17,7 +17,7 @@ embed.set_image(url="your image url")
 embed.set_thumbnail(url="your thumbnail url")
 
 # set footer
-embed.set_footer(text="Embed Footer Text")
+embed.set_footer(text="Enjoy yourself")
 
 # set timestamp (default is now)
 embed.set_timestamp()
