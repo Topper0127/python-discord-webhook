@@ -7,6 +7,8 @@ embed = DiscordEmbed(
     title="Oh , My hero Liberpool", description="You can got your tickets", color=242424
 )
 
+
+
 # set author
 embed.set_author(name="Author Name", url="author url", icon_url="author icon url")
 
